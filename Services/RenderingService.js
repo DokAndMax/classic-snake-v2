@@ -18,12 +18,12 @@ class RenderingService {
 
     async initialize(profile = "Classic") {
         this.#activeProfile = profile;
-        this.#skins = await loadSkins('/Skins/skins.json', profile);
+        this.#skins = await loadSkins('./Skins/skins.json', profile);
     }
 
     async changeSkinProfile(profile) {
         this.#activeProfile = profile;
-        this.#skins = await loadSkins('/Skins/skins.json', profile);
+        this.#skins = await loadSkins('./Skins/skins.json', profile);
     }
 
     render(entities) {
