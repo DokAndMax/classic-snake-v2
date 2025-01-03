@@ -1,0 +1,15 @@
+{
+  "Classic": {
+    "apple": "Classic/apple.svg",
+    "body": "Classic/body.svg",
+    "bodyFat": "Classic/bodyFat.svg",
+    "cornerBody": "Classic/cornerBody.svg",
+    "cornerBodyFat": "Classic/cornerBodyFat.svg",
+    "mouth": "Classic/mouth.svg",
+    "openMouth": "Classic/openMouth.svg",
+    "tail": "Classic/tail.svg",
+    "wall": "Classic/wall.svg",
+    "cornerWall": "Classic/cornerWall.svg",
+    "edgeWall": "Classic/edgeWall.svg"
+  }
+}
