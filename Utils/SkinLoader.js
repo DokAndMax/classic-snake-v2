@@ -8,7 +8,7 @@ async function loadSkins(configPath, profile = "Classic") {
 
     const skins = {};
     Object.keys(skinsConfig[profile]).forEach(key => {
-        skins[key] = `/Skins/${skinsConfig[profile][key]}`;
+        skins[key] = `./Skins/${skinsConfig[profile][key]}`;
     });
 
     return skins;
